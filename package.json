@@ -1,0 +1,35 @@
+{
+  "name": "r85",
+  "version": "1.0.0",
+  "description": "Binary and text encoding with radix-85 representation",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "nyc mocha --colors *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willchb/r85"
+  },
+  "keywords": [
+    "base85",
+    "radix85",
+    "r85",
+    "encoding"
+  ],
+  "author": "Willian Balmant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willchb/r85/issues"
+  },
+  "homepage": "https://github.com/willchb/r85#readme",
+  "devDependencies": {
+    "mocha": "^6.0.1",
+    "nyc": "^13.3.0"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  }
+}
