@@ -20,12 +20,12 @@ It can be used from the command line or programatically as a node module in any 
 
 ## It's lightning fast
 
-Check out the time to encode and decode 1GB of data in a Intel Core i7-8750H:
+Check out the time to encode and decode 1GB of data in an AMD Ryzen 9 3900X:
 
 | Format | Encoding | Decoding |
 |:-------|---------:|---------:|
-| Binary |   1287ms |    516ms |
-| String |   1304ms |   1257ms |
+| Binary |   1038ms |    403ms |
+| String |    971ms |    853ms |
 
 ## Using as a CLI tool
 
